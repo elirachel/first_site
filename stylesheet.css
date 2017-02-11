@@ -1,0 +1,58 @@
+header {
+  text-align: center;
+  background-image: url('IMG_3858.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 70px;
+  font-family: Verdana, sans-serif;
+  padding: 70px 0px 200px 0px;
+}
+h2 {
+  font-size: 30px;
+  font-family: Arial, sans-serif;
+}
+h3 {
+  font-size: 28px;
+  font-family: Arial, sans-serif;
+  color: rgba(0, 0, 0, 0.5)
+}
+p {
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+}
+a {
+  color: white;
+  font-size: 18px;
+  font-family: "Verdana", sans-serif;
+}
+ul {
+  padding:10px;
+  background: rgba(0, 0, 0, 0.5);
+}
+li {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}
+article {
+  max-width: 500px;
+  padding: 30px;
+  margin: 0 auto;
+}
+@media (max-width: 500px) {
+  h1 {
+    font-size: 50px;
+    padding-bottom: 10px;
+  }
+  li {
+    display: block;
+    padding: 5px;
+  }
+  ul{
+    margin-top: 50px;
+  }
+}

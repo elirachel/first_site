@@ -1,9 +1,13 @@
+body {
+  margin: 0 auto;
+  max-width: 750px;
+  background-color: rgba(150,160,150,1)
+}
 header {
   text-align: center;
-  background-image: url('IMG_3858.jpg');
+  background-image: url('./images/IMG_3858.jpg');
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
   color: white;
   margin: 0 auto;
 }
@@ -16,17 +20,26 @@ h2 {
   font-size: 30px;
   font-family: Arial, sans-serif;
 }
-h3 {
-  font-size: 28px;
-  font-family: Arial, sans-serif;
-  color: rgba(0, 0, 0, 0.5)
-}
 p {
   font-size: 18px;
   font-family: Arial, sans-serif;
+  color: rgba(255, 255, 255, 1);
+  background: rgba(0, 0, 0, 0.5);
+  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.5));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.5));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.5));
+  padding: 10px;
+  line-height: 28px;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  text-align: left;
+}
+small {
+  text-align: right;
 }
 a {
-  color: white;
+  color: rgba(255, 255, 255, 1);
   font-size: 18px;
   font-family: "Verdana", sans-serif;
 }
@@ -38,11 +51,47 @@ li {
   display: inline;
   padding: 0px 10px 0px 10px;
 }
-article {
-  max-width: 500px;
-  padding: 30px;
+
+/*.page-body {
   margin: 0 auto;
 }
+.col-xs-6 {
+  padding: 20px;
+  border-width: 50px;
+  height: 337px;
+  max-width: 600px;
+  background-size: cover;
+  position: relative;
+  margin: 0 auto;
+}*/
+
+.col-xs-6 {
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin: 40px 0 0 0;
+}
+
+#teacher {
+  background-color: rgba(100, 100, 100, 1);
+}
+#handyperson {
+  background: url("./images-homepage/IMG_1701_bw.jpg");
+}
+#artist {
+  background: url("./images-homepage/IMG_3060_bw.jpg");
+}
+#caregiver {
+  background: url("./images-homepage/IMG_0405_bw.jpg");
+}
+#traveller {
+  background: url("./images-homepage/IMG_4084_bw.jpg");
+}
+#learner {
+  background: url("./images-homepage/IMG_2214_bw.jpg");
+}
+
 @media (max-width: 500px) {
   h1 {
     font-size: 50px;
